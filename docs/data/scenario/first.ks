@@ -1,46 +1,53 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="面接に間に合うか"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「面接に間に合うか」[l][r]
 
-メロスは激怒した。[l][r]
+私の名はしがない就活生。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+既に50社ほど落ち，後がない状況だ。[l][r]
 
-(中略)[l][r]
+もう秋の訪れを感じる今日この頃。同期はとっくに就活を終えているだろう...。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+明日はやっとの思いでたどり着いた最終面接。緊張するなあ...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →明日に備えて早めに寝る [endlink][r]
+[link target=*tag_run] →明日の面接の最終確認をする [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=shinsyakaijin_run_man2.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+よし、明日に備えて早く寝よう。[l][r]
 
-【 BAD END 】[l][cm]
+-翌朝　今日は遅刻せずに余裕を持って会社に行けるぞ。[l][r]
+
+面接には遅刻せず、合格しました。めでたしめでたし。[r]
+
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=pose_hashiru_guruguru_man.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+よし、面接に備えて最終確認をしよう。[l][r]
 
-【 GOOD END 】[l][cm]
+-2時間後　大体確認できたな。明日に備えてもう寝よう。[l][r]
+
+-翌朝　もうこんな時間だ。遅刻する。[l][r]
+
+急いで会場に向かったものの、案の定遅刻。チャンスをみすみす逃しましたとさ。[r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
